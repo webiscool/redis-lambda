@@ -1,0 +1,15 @@
+{
+  "name": "redis-lambda",
+  "version": "1.0.0",
+  "description": "> Aim of this repo is to show how simple and swift it is to set up small APIs with AWS Lambda. Indeed Lambda service has HTTPS endpoints you can later on call with [cUrl](https://en.wikipedia.org/wiki/CURL) or [fetch](https://github.com/github/fetch).",
+  "main": "zincrby1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "agreg0ire",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.6.1"
+  },
+  "devDependencies": {}
+}
