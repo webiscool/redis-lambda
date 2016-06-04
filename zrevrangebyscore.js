@@ -11,7 +11,7 @@ exports.handler = (event, context) => {
     rCli.zrevrangebyscore([event.set, '+inf', '-inf', 'WITHSCORES'], (err, reply) => {
 
       //reduce method to have the next value of array as the value of current key
-      var output = Object.keys(reply).reduce((result, item, index) => {
+      var output = reply.reduce((result, item, index) => {
 
       if((index +1) <= reply.length / 2) {
       //0*2 = 0 then 0*2 +1 = 1
