@@ -20,7 +20,7 @@ exports.handler = (event, context) => {
         result[reply[index*2]] = reply[(index*2)+1];
       }
         return result;
-      }, {}); //to store result in an object
+      }, {}); //to store result in an object (also the initial value)
 
       //will return a json style object instead of simple array
       context.succeed(output);
