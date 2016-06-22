@@ -25,3 +25,5 @@ curl -X POST -d '{"set":"days"}' https://60zhqzqvuk.execute-api.us-west-2.amazon
 [lambda setup tuto](https://github.com/dwyl/learn-aws-lambda)
 
 [redis command info](http://redis.io/commands/zrevrangebyscore)
+
+[examples using fetch in the browser or the server](https://github.com/agreg0ire/gen-fetch)
