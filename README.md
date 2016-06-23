@@ -26,4 +26,4 @@ curl -X POST -d '{"set":"days"}' https://60zhqzqvuk.execute-api.us-west-2.amazon
 
 [redis command info](http://redis.io/commands/zrevrangebyscore)
 
-[examples using fetch in the browser or the server](https://github.com/agreg0ire/gen-fetch)
+[examples using fetch in the browser or the server](https://github.com/agreg0ire/gen-fetch/blob/master/sequentiel.js)
